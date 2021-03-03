@@ -71,3 +71,9 @@ def repWord():
             print("Duplicate words: " + i)
 repWord()
 
+#Task_7
+print ('TASK 7')
+string = "Exception breakpoints: suspend the program when Exception or its subclasses are thrown.In PyCharm, you can set breakpoints for Python exceptions."
+new_string = string.replace(' ', '_')
+print(new_string)
+
