@@ -44,18 +44,18 @@ def Task_4():
 Task_4()
 
 #Task_5
+print ('TASK 5')
 a = 'fdgfgbgng'
 d = {}
-print ('TASK 5')
 for i in a:
     d.update({i : a.count(i)})
 print(d)
 
 #Task_6
+print ('TASK 6')
 a = 'Automation sometimes helps project and sometimes does not.'
 lst = a.split()
 count = {}
-print ('TASK 6')
 def maxWord():
     for i in lst:
             max_word = max(lst, key=len)
