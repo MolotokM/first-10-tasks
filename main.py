@@ -43,4 +43,31 @@ def Task_4():
     print 'set items', set_items
 Task_4()
 
+#Task_5
+a = 'fdgfgbgng'
+d = {}
+print ('TASK 5')
+for i in a:
+    d.update({i : a.count(i)})
+print(d)
+
+#Task_6
+a = 'Automation sometimes helps project and sometimes does not.'
+lst = a.split()
+count = {}
+print ('TASK 6')
+def maxWord():
+    for i in lst:
+            max_word = max(lst, key=len)
+            print("Max word: " + max_word)
+            break
+maxWord()
+def repWord():
+    for i in lst:
+        if i not in count:
+            count[i] = 0
+        else:
+            count[i] = 1
+            print("Duplicate words: " + i)
+repWord()
 
