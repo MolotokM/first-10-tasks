@@ -90,4 +90,16 @@ class Test():
 E = Test()
 E.A()
 
+#Task_9
+print ('TASK 9')
+class Test2():
+    def B(self):
+        word = raw_input('Enter a word: ')
+        if word == word[::-1]:
+            print('palindrom')
+        else:
+            print ('ne palindrom:D')
+E2 = Test2()
+E2.B()
+
 
