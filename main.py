@@ -74,6 +74,20 @@ repWord()
 #Task_7
 print ('TASK 7')
 string = "Exception breakpoints: suspend the program when Exception or its subclasses are thrown.In PyCharm, you can set breakpoints for Python exceptions."
-new_string = string.replace(' ', '_')
-print(new_string)
+string.replace(' ', '_')
+print(string)
+
+#Task_8
+print ('TASK 8')
+class Test():
+    def A(self):
+        string = raw_input('Enter a string: ')
+        symbol = raw_input('Enter a symbol: ')
+        if symbol in string:
+            print({symbol: string.count(symbol)})
+        else:
+            print('Entered symbol is not in the string')
+E = Test()
+E.A()
+
 
