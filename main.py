@@ -102,4 +102,11 @@ class Test2():
 E2 = Test2()
 E2.B()
 
+#Task_10
+print ('TASK 10')
+my_dict = {'a': 234, 'b': 34, 'c': 375, 'd': 934, 'e': 5271, 'f': 1945}
+d = sorted(my_dict.items(), key=lambda x: x[1], reverse=True)[0:3]
+for key, value in d:
+    print(key)
+
 
