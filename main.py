@@ -31,9 +31,9 @@ Task3()
 #Task 4
 def Task_4():
     print ('TASK 4')
-    list_items = raw_input('Enter numbers string:').replace(' ', ',')
-    cortege_items = tuple(list_items.replace(',', ''))
-    set_items = set(list_items.replace(',', ''))
+    list_items = raw_input('Enter numbers string:')
+    cortege_items = tuple(list_items)
+    set_items = set(list_items)
     print 'list items:', list_items
     print 'cortege items:', cortege_items
     print 'set items', set_items
