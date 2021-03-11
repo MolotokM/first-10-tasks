@@ -2,13 +2,9 @@
 #Task 1
 number_list = [1, 0, -52, 3, 5, -8, 13, 21, 34, -55, 8]
 i = 0
-while i < len(number_list):
-    if number_list[i] > 5:
-        del number_list[i]
-    else:
-        i += 1
-print ('Task 1 result', number_list)
-
+for i in range(len(number_list)):
+    if number_list[i] <= 5:
+        print(number_list[i])
 
 #Task 2(V1)
 numbers_1 = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
